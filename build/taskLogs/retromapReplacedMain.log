@@ -1,0 +1,99 @@
+Processing 5 files
+Start Processing: com/journeygaming/menu/MenuPlugin.java
+Import: com.google.common.collect.Lists
+Import: com.google.common.collect.Maps
+Import: com.google.inject.Inject
+Import: com.journeygaming.lib.JourneyGaming
+Import: com.journeygaming.menu.command.MenuCommand
+Import: com.journeygaming.menu.data.Menu
+Import: com.journeygaming.menu.data.MenuConfig
+Import: org.spongepowered.api.event.Listener
+Import: org.spongepowered.api.event.game.state.GameStartedServerEvent
+Import: org.spongepowered.api.plugin.Dependency
+Import: org.spongepowered.api.plugin.Plugin
+Import: org.spongepowered.api.plugin.PluginContainer
+Adding 3 imports
+        java.io.File
+        java.util.List
+        java.util.Map
+End  Processing: com/journeygaming/menu/MenuPlugin.java
+
+Start Processing: com/journeygaming/menu/command/MenuCommand.java
+FOUND CONSTR method com/journeygaming/menu/command/MenuCommand/MenuCommand (Lcom/journeygaming/menu/MenuPlugin;)V com/journeygaming/menu/command/MenuCommand
+Import: com.journeygaming.lib.JourneyGaming
+Import: com.journeygaming.lib.command.BasicCommand
+Import: com.journeygaming.lib.command.Command
+Import: com.journeygaming.menu.MenuPlugin
+Import: com.journeygaming.menu.data.Menu
+Import: com.journeygaming.menu.data.MenuConfig
+Import: org.spongepowered.api.command.CommandResult
+Import: org.spongepowered.api.command.CommandSource
+Import: org.spongepowered.api.entity.living.player.Player
+Import: org.spongepowered.api.text.Text
+Adding 1 imports
+        java.io.File
+End  Processing: com/journeygaming/menu/command/MenuCommand.java
+
+Start Processing: com/journeygaming/menu/data/Menu.java
+FOUND CONSTR method com/journeygaming/menu/data/Menu/Menu (Ljava/lang/String;)V com/journeygaming/menu/data/Menu
+Import: com.google.common.collect.Maps
+Import: com.google.common.reflect.TypeToken
+Import: com.journeygaming.menu.MenuPlugin
+Import: com.journeygaming.menu.ui.GenericUI
+Import: com.mcsimonflash.sponge.teslalibs.inventory.Element
+Import: ninja.leaping.configurate.SimpleConfigurationNode
+Import: ninja.leaping.configurate.commented.CommentedConfigurationNode
+Import: ninja.leaping.configurate.commented.SimpleCommentedConfigurationNode
+Import: ninja.leaping.configurate.objectmapping.ObjectMappingException
+Import: org.spongepowered.api.Sponge
+Import: org.spongepowered.api.data.DataContainer
+Import: org.spongepowered.api.data.DataQuery
+Import: org.spongepowered.api.data.DataView
+Import: org.spongepowered.api.data.key.Keys
+Import: org.spongepowered.api.data.manipulator.mutable.DyeableData
+Import: org.spongepowered.api.data.manipulator.mutable.item.EnchantmentData
+Import: org.spongepowered.api.data.type.DyeColor
+Import: org.spongepowered.api.data.type.DyeColors
+Import: org.spongepowered.api.entity.living.player.Player
+Import: org.spongepowered.api.item.ItemType
+Import: org.spongepowered.api.item.ItemTypes
+Import: org.spongepowered.api.item.enchantment.Enchantment
+Import: org.spongepowered.api.item.enchantment.EnchantmentTypes
+Import: org.spongepowered.api.item.inventory.ItemStack
+Import: org.spongepowered.api.text.Text
+Adding 4 imports
+        java.util.Collections
+        java.util.List
+        java.util.Map
+        java.util.stream.Collectors
+End  Processing: com/journeygaming/menu/data/Menu.java
+
+Start Processing: com/journeygaming/menu/data/MenuConfig.java
+FOUND CONSTR method com/journeygaming/menu/data/MenuConfig/MenuConfig (Ljava/lang/String;)V com/journeygaming/menu/data/MenuConfig
+Import: com.google.common.collect.Lists
+Import: com.journeygaming.lib.config.Configurable
+Import: org.spongepowered.api.item.ItemTypes
+End  Processing: com/journeygaming/menu/data/MenuConfig.java
+
+Start Processing: com/journeygaming/menu/ui/GenericUI.java
+New Key: class com/mcsimonflash/sponge/teslalibs/inventory/View
+FOUND CONSTR method com/journeygaming/menu/ui/GenericUI/GenericUI (Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V com/journeygaming/menu/ui/GenericUI
+New Key: class org/spongepowered/api/event/item/inventory/InteractInventoryEvent
+New Key: class java/util/Map
+Import: com.journeygaming.menu.MenuPlugin
+Import: com.mcsimonflash.sponge.teslalibs.inventory.Action
+Import: com.mcsimonflash.sponge.teslalibs.inventory.Element
+Import: com.mcsimonflash.sponge.teslalibs.inventory.View
+Import: net.minecraft.inventory.ContainerChest
+Import: org.spongepowered.api.Sponge
+Import: org.spongepowered.api.entity.living.player.Player
+Import: org.spongepowered.api.event.item.inventory.InteractInventoryEvent
+Import: org.spongepowered.api.item.inventory.InventoryArchetypes
+Import: org.spongepowered.api.item.inventory.property.InventoryDimension
+Import: org.spongepowered.api.item.inventory.property.InventoryTitle
+Import: org.spongepowered.api.text.Text
+Adding 2 imports
+        java.util.List
+        java.util.Map
+End  Processing: com/journeygaming/menu/ui/GenericUI.java
+

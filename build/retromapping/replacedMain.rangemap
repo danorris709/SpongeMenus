@@ -1,0 +1,699 @@
+Unsupposrted library path: C:\Users\dnorr\OneDrive\Documents\Work\JourneyGaming\JourneyPlugins\Menus\build\classes\api
+Unsupposrted library path: C:\Users\dnorr\OneDrive\Documents\Work\JourneyGaming\JourneyPlugins\Menus\build\resources\api
+Symbol range map extraction starting
+Processing 5 files
+startProcessing "com/journeygaming/menu/MenuPlugin.java" md5: 7e2c02ee3f27404edef0b03d0ba51035
+@|com/journeygaming/menu/MenuPlugin.java|8|30|com.journeygaming.menu|package|com.journeygaming.menu|(file)
+Class Start: com.journeygaming.menu.MenuPlugin
+   @|com/journeygaming/menu/MenuPlugin.java|676|682|Plugin|class|org.spongepowered.api.plugin.Plugin|false
+   @|com/journeygaming/menu/MenuPlugin.java|693|695|id|method|org.spongepowered.api.plugin.Plugin|id|()Ljava/lang/String;
+   @|com/journeygaming/menu/MenuPlugin.java|722|726|name|method|org.spongepowered.api.plugin.Plugin|name|()Ljava/lang/String;
+   @|com/journeygaming/menu/MenuPlugin.java|755|762|version|method|org.spongepowered.api.plugin.Plugin|version|()Ljava/lang/String;
+   @|com/journeygaming/menu/MenuPlugin.java|783|794|description|method|org.spongepowered.api.plugin.Plugin|description|()Ljava/lang/String;
+   @|com/journeygaming/menu/MenuPlugin.java|830|842|dependencies|method|org.spongepowered.api.plugin.Plugin|dependencies|()[Lorg/spongepowered/api/plugin/Dependency;
+   @|com/journeygaming/menu/MenuPlugin.java|865|875|Dependency|class|org.spongepowered.api.plugin.Dependency|false
+   @|com/journeygaming/menu/MenuPlugin.java|876|878|id|method|org.spongepowered.api.plugin.Dependency|id|()Ljava/lang/String;
+   @|com/journeygaming/menu/MenuPlugin.java|937|947|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+   @|com/journeygaming/menu/MenuPlugin.java|972|982|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+   @|com/journeygaming/menu/MenuPlugin.java|972|982|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+   @|com/journeygaming/menu/MenuPlugin.java|983|991|instance|field|com.journeygaming.menu.MenuPlugin|instance|
+   @|com/journeygaming/menu/MenuPlugin.java|1016|1031|PluginContainer|class|org.spongepowered.api.plugin.PluginContainer|false
+   @|com/journeygaming/menu/MenuPlugin.java|1001|1007|Inject|class|com.google.inject.Inject|false
+   @|com/journeygaming/menu/MenuPlugin.java|1016|1031|PluginContainer|class|org.spongepowered.api.plugin.PluginContainer|false
+   @|com/journeygaming/menu/MenuPlugin.java|1032|1041|container|field|com.journeygaming.menu.MenuPlugin|container|
+   @|com/journeygaming/menu/MenuPlugin.java|1062|1068|String|class|java.lang.String|false
+   @|com/journeygaming/menu/MenuPlugin.java|1070|1074|Menu|class|com.journeygaming.menu.data.Menu|false
+   @|com/journeygaming/menu/MenuPlugin.java|1058|1061|Map|class|java.util.Map|false
+   @|com/journeygaming/menu/MenuPlugin.java|1058|1061|Map|class|java.util.Map|false
+   @|com/journeygaming/menu/MenuPlugin.java|1062|1068|String|class|java.lang.String|false
+   @|com/journeygaming/menu/MenuPlugin.java|1070|1074|Menu|class|com.journeygaming.menu.data.Menu|false
+   @|com/journeygaming/menu/MenuPlugin.java|1076|1081|menus|field|com.journeygaming.menu.MenuPlugin|menus|
+   @|com/journeygaming/menu/MenuPlugin.java|1084|1088|Maps|class|com.google.common.collect.Maps|false
+   @|com/journeygaming/menu/MenuPlugin.java|1089|1099|newHashMap|method|com.google.common.collect.Maps|newHashMap|()Ljava/util/HashMap;
+   Method Start: onServerStart(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+      @|com/journeygaming/menu/MenuPlugin.java|1174|1179|event|param|com.journeygaming.menu.MenuPlugin|onServerStart|(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V|event|0
+      @|com/journeygaming/menu/MenuPlugin.java|1111|1119|Listener|class|org.spongepowered.api.event.Listener|false
+      @|com/journeygaming/menu/MenuPlugin.java|1137|1150|onServerStart|method|com.journeygaming.menu.MenuPlugin|onServerStart|(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+      @|com/journeygaming/menu/MenuPlugin.java|1151|1173|GameStartedServerEvent|class|org.spongepowered.api.event.game.state.GameStartedServerEvent|false
+      @|com/journeygaming/menu/MenuPlugin.java|1192|1200|instance|field|com.journeygaming.menu.MenuPlugin|instance
+      @|com/journeygaming/menu/MenuPlugin.java|1224|1235|MenuCommand|class|com.journeygaming.menu.command.MenuCommand|false
+      @|com/journeygaming/menu/MenuPlugin.java|1254|1258|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|1270|1274|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|1275|1288|JourneyGaming|class|com.journeygaming.lib.JourneyGaming|false
+      @|com/journeygaming/menu/MenuPlugin.java|1289|1300|getInstance|method|com.journeygaming.lib.JourneyGaming|getInstance|()Lcom/journeygaming/lib/JourneyGaming;
+      @|com/journeygaming/menu/MenuPlugin.java|1303|1315|getConfigDir|method|com.journeygaming.lib.JourneyGaming|getConfigDir|()Ljava/nio/file/Path;
+      @|com/journeygaming/menu/MenuPlugin.java|1320|1324|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|1325|1334|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/MenuPlugin.java|1361|1365|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|1366|1375|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/MenuPlugin.java|1378|1388|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+      @|com/journeygaming/menu/MenuPlugin.java|1389|1393|PATH|field|com.journeygaming.menu.data.MenuConfig|PATH
+      @|com/journeygaming/menu/MenuPlugin.java|1416|1422|exists|method|java.io.File|exists|()Z
+      @|com/journeygaming/menu/MenuPlugin.java|1446|1451|mkdir|method|java.io.File|mkdir|()Z
+      @|com/journeygaming/menu/MenuPlugin.java|1477|1492|handleDirectory|method|com.journeygaming.menu.MenuPlugin|handleDirectory|(Ljava/io/File;)V
+   Method End: onServerStart(Lorg/spongepowered/api/event/game/state/GameStartedServerEvent;)V
+   Method Start: handleDirectory(Ljava/io/File;)V
+      @|com/journeygaming/menu/MenuPlugin.java|1547|1551|file|param|com.journeygaming.menu.MenuPlugin|handleDirectory|(Ljava/io/File;)V|file|0
+      @|com/journeygaming/menu/MenuPlugin.java|1526|1541|handleDirectory|method|com.journeygaming.menu.MenuPlugin|handleDirectory|(Ljava/io/File;)V
+      @|com/journeygaming/menu/MenuPlugin.java|1542|1546|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|1567|1571|file|param|com.journeygaming.menu.MenuPlugin|handleDirectory|(Ljava/io/File;)V|file|0
+      @|com/journeygaming/menu/MenuPlugin.java|1572|1581|listFiles|method|java.io.File|listFiles|()[Ljava/io/File;
+      @|com/journeygaming/menu/MenuPlugin.java|1643|1647|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|1659|1663|file|param|com.journeygaming.menu.MenuPlugin|handleDirectory|(Ljava/io/File;)V|file|0
+      @|com/journeygaming/menu/MenuPlugin.java|1664|1673|listFiles|method|java.io.File|listFiles|()[Ljava/io/File;
+      @|com/journeygaming/menu/MenuPlugin.java|1704|1715|isDirectory|method|java.io.File|isDirectory|()Z
+      @|com/journeygaming/menu/MenuPlugin.java|1738|1753|handleDirectory|method|com.journeygaming.menu.MenuPlugin|handleDirectory|(Ljava/io/File;)V
+      @|com/journeygaming/menu/MenuPlugin.java|1835|1842|getName|method|java.io.File|getName|()Ljava/lang/String;
+      @|com/journeygaming/menu/MenuPlugin.java|1845|1853|endsWith|method|java.lang.String|endsWith|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/MenuPlugin.java|1923|1929|String|class|java.lang.String|false
+      @|com/journeygaming/menu/MenuPlugin.java|1946|1953|getPath|method|java.io.File|getPath|()Ljava/lang/String;
+      @|com/journeygaming/menu/MenuPlugin.java|1956|1963|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/journeygaming/menu/MenuPlugin.java|1965|1978|JourneyGaming|class|com.journeygaming.lib.JourneyGaming|false
+      @|com/journeygaming/menu/MenuPlugin.java|1979|1990|getInstance|method|com.journeygaming.lib.JourneyGaming|getInstance|()Lcom/journeygaming/lib/JourneyGaming;
+      @|com/journeygaming/menu/MenuPlugin.java|1993|2005|getConfigDir|method|com.journeygaming.lib.JourneyGaming|getConfigDir|()Ljava/nio/file/Path;
+      @|com/journeygaming/menu/MenuPlugin.java|2010|2014|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|2015|2024|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/MenuPlugin.java|2051|2055|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|2056|2065|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/MenuPlugin.java|2068|2078|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+      @|com/journeygaming/menu/MenuPlugin.java|2079|2083|PATH|field|com.journeygaming.menu.data.MenuConfig|PATH
+      @|com/journeygaming/menu/MenuPlugin.java|2086|2090|File|class|java.io.File|false
+      @|com/journeygaming/menu/MenuPlugin.java|2091|2100|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/MenuPlugin.java|2107|2114|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/journeygaming/menu/MenuPlugin.java|2142|2146|Menu|class|com.journeygaming.menu.data.Menu|false
+      @|com/journeygaming/menu/MenuPlugin.java|2158|2162|Menu|class|com.journeygaming.menu.data.Menu|false
+      @|com/journeygaming/menu/MenuPlugin.java|2190|2197|addMenu|method|com.journeygaming.menu.MenuPlugin|addMenu|(Lcom/journeygaming/menu/data/Menu;)V
+   Method End: handleDirectory(Ljava/io/File;)V
+   Method Start: addMenu(Lcom/journeygaming/menu/data/Menu;)V
+      @|com/journeygaming/menu/MenuPlugin.java|2255|2259|menu|param|com.journeygaming.menu.MenuPlugin|addMenu|(Lcom/journeygaming/menu/data/Menu;)V|menu|0
+      @|com/journeygaming/menu/MenuPlugin.java|2242|2249|addMenu|method|com.journeygaming.menu.MenuPlugin|addMenu|(Lcom/journeygaming/menu/data/Menu;)V
+      @|com/journeygaming/menu/MenuPlugin.java|2250|2254|Menu|class|com.journeygaming.menu.data.Menu|false
+      @|com/journeygaming/menu/MenuPlugin.java|2277|2282|menus|field|com.journeygaming.menu.MenuPlugin|menus
+      @|com/journeygaming/menu/MenuPlugin.java|2283|2286|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/journeygaming/menu/MenuPlugin.java|2287|2291|menu|param|com.journeygaming.menu.MenuPlugin|addMenu|(Lcom/journeygaming/menu/data/Menu;)V|menu|0
+      @|com/journeygaming/menu/MenuPlugin.java|2292|2305|getIdentifier|method|com.journeygaming.menu.data.Menu|getIdentifier|()Ljava/lang/String;
+      @|com/journeygaming/menu/MenuPlugin.java|2308|2319|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+      @|com/journeygaming/menu/MenuPlugin.java|2323|2327|menu|param|com.journeygaming.menu.MenuPlugin|addMenu|(Lcom/journeygaming/menu/data/Menu;)V|menu|0
+   Method End: addMenu(Lcom/journeygaming/menu/data/Menu;)V
+   Method Start: getInstance()Lcom/journeygaming/menu/MenuPlugin;
+      @|com/journeygaming/menu/MenuPlugin.java|2358|2368|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+      @|com/journeygaming/menu/MenuPlugin.java|2369|2380|getInstance|method|com.journeygaming.menu.MenuPlugin|getInstance|()Lcom/journeygaming/menu/MenuPlugin;
+      @|com/journeygaming/menu/MenuPlugin.java|2401|2409|instance|field|com.journeygaming.menu.MenuPlugin|instance
+   Method End: getInstance()Lcom/journeygaming/menu/MenuPlugin;
+   Method Start: getContainer()Lorg/spongepowered/api/plugin/PluginContainer;
+      @|com/journeygaming/menu/MenuPlugin.java|2432|2447|PluginContainer|class|org.spongepowered.api.plugin.PluginContainer|false
+      @|com/journeygaming/menu/MenuPlugin.java|2448|2460|getContainer|method|com.journeygaming.menu.MenuPlugin|getContainer|()Lorg/spongepowered/api/plugin/PluginContainer;
+      @|com/journeygaming/menu/MenuPlugin.java|2486|2495|container|field|com.journeygaming.menu.MenuPlugin|container
+   Method End: getContainer()Lorg/spongepowered/api/plugin/PluginContainer;
+   Method Start: getMenuNames()Ljava/util/List;
+      @|com/journeygaming/menu/MenuPlugin.java|2518|2522|List|class|java.util.List|false
+      @|com/journeygaming/menu/MenuPlugin.java|2523|2529|String|class|java.lang.String|false
+      @|com/journeygaming/menu/MenuPlugin.java|2531|2543|getMenuNames|method|com.journeygaming.menu.MenuPlugin|getMenuNames|()Ljava/util/List;
+      @|com/journeygaming/menu/MenuPlugin.java|2564|2569|Lists|class|com.google.common.collect.Lists|false
+      @|com/journeygaming/menu/MenuPlugin.java|2570|2582|newArrayList|method|com.google.common.collect.Lists|newArrayList|(Ljava/lang/Iterable;)Ljava/util/ArrayList;
+      @|com/journeygaming/menu/MenuPlugin.java|2588|2593|menus|field|com.journeygaming.menu.MenuPlugin|menus
+      @|com/journeygaming/menu/MenuPlugin.java|2594|2600|keySet|method|java.util.Map|keySet|()Ljava/util/Set;
+   Method End: getMenuNames()Ljava/util/List;
+   Method Start: getMenu(Ljava/lang/String;)Lcom/journeygaming/menu/data/Menu;
+      @|com/journeygaming/menu/MenuPlugin.java|2646|2650|name|param|com.journeygaming.menu.MenuPlugin|getMenu|(Ljava/lang/String;)Lcom/journeygaming/menu/data/Menu;|name|0
+      @|com/journeygaming/menu/MenuPlugin.java|2626|2630|Menu|class|com.journeygaming.menu.data.Menu|false
+      @|com/journeygaming/menu/MenuPlugin.java|2631|2638|getMenu|method|com.journeygaming.menu.MenuPlugin|getMenu|(Ljava/lang/String;)Lcom/journeygaming/menu/data/Menu;
+      @|com/journeygaming/menu/MenuPlugin.java|2639|2645|String|class|java.lang.String|false
+      @|com/journeygaming/menu/MenuPlugin.java|2675|2680|menus|field|com.journeygaming.menu.MenuPlugin|menus
+      @|com/journeygaming/menu/MenuPlugin.java|2681|2684|get|method|java.util.Map|get|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/journeygaming/menu/MenuPlugin.java|2685|2689|name|param|com.journeygaming.menu.MenuPlugin|getMenu|(Ljava/lang/String;)Lcom/journeygaming/menu/data/Menu;|name|0
+      @|com/journeygaming/menu/MenuPlugin.java|2690|2701|toLowerCase|method|java.lang.String|toLowerCase|()Ljava/lang/String;
+   Method End: getMenu(Ljava/lang/String;)Lcom/journeygaming/menu/data/Menu;
+Class End  : com.journeygaming.menu.MenuPlugin
+endProcessing "com/journeygaming/menu/MenuPlugin.java"
+
+startProcessing "com/journeygaming/menu/command/MenuCommand.java" md5: f31175cc2cbc8bdaa061c380d9232052
+@|com/journeygaming/menu/command/MenuCommand.java|8|38|com.journeygaming.menu.command|package|com.journeygaming.menu.command|(file)
+Class Start: com.journeygaming.menu.command.MenuCommand
+   @|com/journeygaming/menu/command/MenuCommand.java|553|560|Command|class|com.journeygaming.lib.command.Command|false
+   @|com/journeygaming/menu/command/MenuCommand.java|565|570|usage|method|com.journeygaming.lib.command.Command|usage|()Ljava/lang/String;
+   @|com/journeygaming/menu/command/MenuCommand.java|652|662|permission|method|com.journeygaming.lib.command.Command|permission|()Ljava/lang/String;
+   @|com/journeygaming/menu/command/MenuCommand.java|684|695|description|method|com.journeygaming.lib.command.Command|description|()Ljava/lang/String;
+   @|com/journeygaming/menu/command/MenuCommand.java|715|734|extendedDescription|method|com.journeygaming.lib.command.Command|extendedDescription|()Ljava/lang/String;
+   @|com/journeygaming/menu/command/MenuCommand.java|754|761|aliases|method|com.journeygaming.lib.command.Command|aliases|()[Ljava/lang/String;
+   @|com/journeygaming/menu/command/MenuCommand.java|812|823|MenuCommand|class|com.journeygaming.menu.command.MenuCommand|false
+   @|com/journeygaming/menu/command/MenuCommand.java|832|844|BasicCommand|class|com.journeygaming.lib.command.BasicCommand|false
+   @|com/journeygaming/menu/command/MenuCommand.java|865|875|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+   @|com/journeygaming/menu/command/MenuCommand.java|865|875|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+   @|com/journeygaming/menu/command/MenuCommand.java|876|882|plugin|field|com.journeygaming.menu.command.MenuCommand|plugin|
+   Method Start: MenuCommand(Lcom/journeygaming/menu/MenuPlugin;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|918|924|plugin|param|com.journeygaming.menu.command.MenuCommand|MenuCommand|(Lcom/journeygaming/menu/MenuPlugin;)V|plugin|0
+      @|com/journeygaming/menu/command/MenuCommand.java|895|906|MenuCommand|method|com.journeygaming.menu.command.MenuCommand|MenuCommand|(Lcom/journeygaming/menu/MenuPlugin;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|907|917|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+      @|com/journeygaming/menu/command/MenuCommand.java|950|956|plugin|field|com.journeygaming.menu.command.MenuCommand|plugin
+      @|com/journeygaming/menu/command/MenuCommand.java|959|965|plugin|param|com.journeygaming.menu.command.MenuCommand|MenuCommand|(Lcom/journeygaming/menu/MenuPlugin;)V|plugin|0
+   Method End: MenuCommand(Lcom/journeygaming/menu/MenuPlugin;)V
+   Method Start: process(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|1018|1024|source|param|com.journeygaming.menu.command.MenuCommand|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;|source|0
+      @|com/journeygaming/menu/command/MenuCommand.java|1033|1042|arguments|param|com.journeygaming.menu.command.MenuCommand|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;|arguments|1
+      @|com/journeygaming/menu/command/MenuCommand.java|982|995|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|996|1003|process|method|org.spongepowered.api.command.CommandCallable|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|1004|1017|CommandSource|class|org.spongepowered.api.command.CommandSource|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1026|1032|String|class|java.lang.String|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1059|1073|testPermission|method|org.spongepowered.api.command.CommandCallable|testPermission|(Lorg/spongepowered/api/command/CommandSource;)Z
+      @|com/journeygaming/menu/command/MenuCommand.java|1074|1080|source|param|com.journeygaming.menu.command.MenuCommand|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;|source|0
+      @|com/journeygaming/menu/command/MenuCommand.java|1087|1093|source|param|com.journeygaming.menu.command.MenuCommand|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;|source|0
+      @|com/journeygaming/menu/command/MenuCommand.java|1105|1111|Player|class|org.spongepowered.api.entity.living.player.Player|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1127|1140|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1141|1146|empty|method|org.spongepowered.api.command.CommandResult|empty|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|1160|1166|Player|class|org.spongepowered.api.entity.living.player.Player|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1177|1183|Player|class|org.spongepowered.api.entity.living.player.Player|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1185|1191|source|param|com.journeygaming.menu.command.MenuCommand|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;|source|0
+      @|com/journeygaming/menu/command/MenuCommand.java|1196|1202|String|class|java.lang.String|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1212|1221|arguments|param|com.journeygaming.menu.command.MenuCommand|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;|arguments|1
+      @|com/journeygaming/menu/command/MenuCommand.java|1222|1227|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      Field: Array Length, skipping
+      Field: Array Length, skipping
+      @|com/journeygaming/menu/command/MenuCommand.java|1297|1313|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/command/MenuCommand.java|1341|1354|hasPermission|method|org.spongepowered.api.service.permission.Subject|hasPermission|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/command/MenuCommand.java|1398|1411|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1412|1417|empty|method|org.spongepowered.api.command.CommandResult|empty|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|1442|1453|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|1454|1458|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1459|1461|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/command/MenuCommand.java|1484|1490|String|class|java.lang.String|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1507|1513|plugin|field|com.journeygaming.menu.command.MenuCommand|plugin
+      @|com/journeygaming/menu/command/MenuCommand.java|1514|1526|getMenuNames|method|com.journeygaming.menu.MenuPlugin|getMenuNames|()Ljava/util/List;
+      @|com/journeygaming/menu/command/MenuCommand.java|1545|1556|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|1557|1561|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1562|1564|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/command/MenuCommand.java|1606|1619|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1620|1627|success|method|org.spongepowered.api.command.CommandResult|success|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|1648|1657|sendUsage|method|com.journeygaming.lib.command.BasicCommand|sendUsage|(Lorg/spongepowered/api/command/CommandSource;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|1658|1664|source|param|com.journeygaming.menu.command.MenuCommand|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;|source|0
+      @|com/journeygaming/menu/command/MenuCommand.java|1678|1691|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1692|1699|success|method|org.spongepowered.api.command.CommandResult|success|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|1724|1740|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/command/MenuCommand.java|1759|1772|hasPermission|method|org.spongepowered.api.service.permission.Subject|hasPermission|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/command/MenuCommand.java|1807|1811|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1823|1827|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1828|1841|JourneyGaming|class|com.journeygaming.lib.JourneyGaming|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1842|1853|getInstance|method|com.journeygaming.lib.JourneyGaming|getInstance|()Lcom/journeygaming/lib/JourneyGaming;
+      @|com/journeygaming/menu/command/MenuCommand.java|1856|1868|getConfigDir|method|com.journeygaming.lib.JourneyGaming|getConfigDir|()Ljava/nio/file/Path;
+      @|com/journeygaming/menu/command/MenuCommand.java|1873|1877|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1878|1887|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/command/MenuCommand.java|1914|1918|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1919|1928|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/command/MenuCommand.java|1931|1941|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1942|1946|PATH|field|com.journeygaming.menu.data.MenuConfig|PATH
+      @|com/journeygaming/menu/command/MenuCommand.java|1949|1953|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|1954|1963|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/command/MenuCommand.java|1991|1997|exists|method|java.io.File|exists|()Z
+      @|com/journeygaming/menu/command/MenuCommand.java|2015|2026|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|2027|2031|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2032|2034|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/command/MenuCommand.java|2205|2218|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2219|2226|success|method|org.spongepowered.api.command.CommandResult|success|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|2250|2261|isDirectory|method|java.io.File|isDirectory|()Z
+      @|com/journeygaming/menu/command/MenuCommand.java|2277|2283|plugin|field|com.journeygaming.menu.command.MenuCommand|plugin
+      @|com/journeygaming/menu/command/MenuCommand.java|2284|2299|handleDirectory|method|com.journeygaming.menu.MenuPlugin|handleDirectory|(Ljava/io/File;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|2324|2330|String|class|java.lang.String|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2343|2350|getPath|method|java.io.File|getPath|()Ljava/lang/String;
+      @|com/journeygaming/menu/command/MenuCommand.java|2353|2360|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/journeygaming/menu/command/MenuCommand.java|2362|2375|JourneyGaming|class|com.journeygaming.lib.JourneyGaming|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2376|2387|getInstance|method|com.journeygaming.lib.JourneyGaming|getInstance|()Lcom/journeygaming/lib/JourneyGaming;
+      @|com/journeygaming/menu/command/MenuCommand.java|2390|2402|getConfigDir|method|com.journeygaming.lib.JourneyGaming|getConfigDir|()Ljava/nio/file/Path;
+      @|com/journeygaming/menu/command/MenuCommand.java|2407|2411|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2412|2421|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/command/MenuCommand.java|2448|2452|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2453|2462|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/command/MenuCommand.java|2465|2475|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2476|2480|PATH|field|com.journeygaming.menu.data.MenuConfig|PATH
+      @|com/journeygaming/menu/command/MenuCommand.java|2483|2487|File|class|java.io.File|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2488|2497|separator|field|java.io.File|separator
+      @|com/journeygaming/menu/command/MenuCommand.java|2504|2511|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/journeygaming/menu/command/MenuCommand.java|2531|2535|Menu|class|com.journeygaming.menu.data.Menu|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2547|2551|Menu|class|com.journeygaming.menu.data.Menu|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2571|2577|plugin|field|com.journeygaming.menu.command.MenuCommand|plugin
+      @|com/journeygaming/menu/command/MenuCommand.java|2578|2585|addMenu|method|com.journeygaming.menu.MenuPlugin|addMenu|(Lcom/journeygaming/menu/data/Menu;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|2612|2623|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|2624|2628|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2629|2631|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/command/MenuCommand.java|2660|2673|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2674|2681|success|method|org.spongepowered.api.command.CommandResult|success|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|2695|2699|Menu|class|com.journeygaming.menu.data.Menu|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2712|2718|plugin|field|com.journeygaming.menu.command.MenuCommand|plugin
+      @|com/journeygaming/menu/command/MenuCommand.java|2719|2726|getMenu|method|com.journeygaming.menu.MenuPlugin|getMenu|(Ljava/lang/String;)Lcom/journeygaming/menu/data/Menu;
+      @|com/journeygaming/menu/command/MenuCommand.java|2772|2783|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|2784|2788|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2789|2791|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/command/MenuCommand.java|2828|2841|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|2842|2847|empty|method|org.spongepowered.api.command.CommandResult|empty|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|2872|2888|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/command/MenuCommand.java|2909|2922|hasPermission|method|org.spongepowered.api.service.permission.Subject|hasPermission|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/command/MenuCommand.java|2964|2976|reloadConfig|method|com.journeygaming.menu.data.Menu|reloadConfig|()V
+      @|com/journeygaming/menu/command/MenuCommand.java|2989|2998|loadItems|method|com.journeygaming.menu.data.Menu|loadItems|()V
+      @|com/journeygaming/menu/command/MenuCommand.java|3013|3024|sendMessage|method|org.spongepowered.api.text.channel.MessageReceiver|sendMessage|(Lorg/spongepowered/api/text/Text;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|3025|3029|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/command/MenuCommand.java|3030|3032|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/command/MenuCommand.java|3063|3076|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|3077|3084|success|method|org.spongepowered.api.command.CommandResult|success|()Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/command/MenuCommand.java|3103|3107|open|method|com.journeygaming.menu.data.Menu|open|(Lorg/spongepowered/api/entity/living/player/Player;)V
+      @|com/journeygaming/menu/command/MenuCommand.java|3129|3142|CommandResult|class|org.spongepowered.api.command.CommandResult|false
+      @|com/journeygaming/menu/command/MenuCommand.java|3143|3148|empty|method|org.spongepowered.api.command.CommandResult|empty|()Lorg/spongepowered/api/command/CommandResult;
+   Method End: process(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;
+Class End  : com.journeygaming.menu.command.MenuCommand
+endProcessing "com/journeygaming/menu/command/MenuCommand.java"
+
+startProcessing "com/journeygaming/menu/data/Menu.java" md5: 338a795be86a7692c9400c6726ed22c2
+@|com/journeygaming/menu/data/Menu.java|8|35|com.journeygaming.menu.data|package|com.journeygaming.menu.data|(file)
+Class Start: com.journeygaming.menu.data.Menu
+   @|com/journeygaming/menu/data/Menu.java|1529|1533|Menu|class|com.journeygaming.menu.data.Menu|false
+   @|com/journeygaming/menu/data/Menu.java|1617|1623|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1607|1616|TypeToken|class|com.google.common.reflect.TypeToken|false
+   @|com/journeygaming/menu/data/Menu.java|1544|1560|SuppressWarnings|class|java.lang.SuppressWarnings|false
+   @|com/journeygaming/menu/data/Menu.java|1607|1616|TypeToken|class|com.google.common.reflect.TypeToken|false
+   @|com/journeygaming/menu/data/Menu.java|1617|1623|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1625|1642|STRING_TYPE_TOKEN|field|com.journeygaming.menu.data.Menu|STRING_TYPE_TOKEN|
+   @|com/journeygaming/menu/data/Menu.java|1645|1654|TypeToken|class|com.google.common.reflect.TypeToken|false
+   @|com/journeygaming/menu/data/Menu.java|1655|1657|of|method|com.google.common.reflect.TypeToken|of|(Ljava/lang/Class;)Lcom/google/common/reflect/TypeToken;
+   @|com/journeygaming/menu/data/Menu.java|1658|1664|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1694|1700|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1694|1700|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1701|1715|fileIdentifier|field|com.journeygaming.menu.data.Menu|fileIdentifier|
+   @|com/journeygaming/menu/data/Menu.java|1732|1742|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+   @|com/journeygaming/menu/data/Menu.java|1732|1742|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+   @|com/journeygaming/menu/data/Menu.java|1743|1749|config|field|com.journeygaming.menu.data.Menu|config|
+   @|com/journeygaming/menu/data/Menu.java|1764|1770|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1764|1770|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1771|1781|identifier|field|com.journeygaming.menu.data.Menu|identifier|
+   @|com/journeygaming/menu/data/Menu.java|1796|1802|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1796|1802|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1803|1807|name|field|com.journeygaming.menu.data.Menu|name|
+   @|com/journeygaming/menu/data/Menu.java|1826|1832|height|field|com.journeygaming.menu.data.Menu|height|
+   @|com/journeygaming/menu/data/Menu.java|1852|1858|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1847|1851|List|class|java.util.List|false
+   @|com/journeygaming/menu/data/Menu.java|1847|1851|List|class|java.util.List|false
+   @|com/journeygaming/menu/data/Menu.java|1852|1858|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/Menu.java|1860|1873|closeCommands|field|com.journeygaming.menu.data.Menu|closeCommands|
+   @|com/journeygaming/menu/data/Menu.java|1892|1899|Integer|class|java.lang.Integer|false
+   @|com/journeygaming/menu/data/Menu.java|1901|1908|Element|class|com.mcsimonflash.sponge.teslalibs.inventory.Element|false
+   @|com/journeygaming/menu/data/Menu.java|1888|1891|Map|class|java.util.Map|false
+   @|com/journeygaming/menu/data/Menu.java|1888|1891|Map|class|java.util.Map|false
+   @|com/journeygaming/menu/data/Menu.java|1892|1899|Integer|class|java.lang.Integer|false
+   @|com/journeygaming/menu/data/Menu.java|1901|1908|Element|class|com.mcsimonflash.sponge.teslalibs.inventory.Element|false
+   @|com/journeygaming/menu/data/Menu.java|1910|1915|items|field|com.journeygaming.menu.data.Menu|items|
+   Method Start: Menu(Ljava/lang/String;)V
+      @|com/journeygaming/menu/data/Menu.java|1943|1957|fileIdentifier|param|com.journeygaming.menu.data.Menu|Menu|(Ljava/lang/String;)V|fileIdentifier|0
+      @|com/journeygaming/menu/data/Menu.java|1931|1935|Menu|method|com.journeygaming.menu.data.Menu|Menu|(Ljava/lang/String;)V
+      @|com/journeygaming/menu/data/Menu.java|1936|1942|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|1975|1989|fileIdentifier|field|com.journeygaming.menu.data.Menu|fileIdentifier
+      @|com/journeygaming/menu/data/Menu.java|1992|2006|fileIdentifier|param|com.journeygaming.menu.data.Menu|Menu|(Ljava/lang/String;)V|fileIdentifier|0
+      @|com/journeygaming/menu/data/Menu.java|2022|2034|reloadConfig|method|com.journeygaming.menu.data.Menu|reloadConfig|()V
+      @|com/journeygaming/menu/data/Menu.java|2052|2061|loadItems|method|com.journeygaming.menu.data.Menu|loadItems|()V
+   Method End: Menu(Ljava/lang/String;)V
+   Method Start: getIdentifier()Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|2086|2092|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|2093|2106|getIdentifier|method|com.journeygaming.menu.data.Menu|getIdentifier|()Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|2132|2142|identifier|field|com.journeygaming.menu.data.Menu|identifier
+   Method End: getIdentifier()Ljava/lang/String;
+   Method Start: reloadConfig()V
+      @|com/journeygaming/menu/data/Menu.java|2170|2182|reloadConfig|method|com.journeygaming.menu.data.Menu|reloadConfig|()V
+      @|com/journeygaming/menu/data/Menu.java|2201|2207|config|field|com.journeygaming.menu.data.Menu|config
+      @|com/journeygaming/menu/data/Menu.java|2214|2224|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+      @|com/journeygaming/menu/data/Menu.java|2225|2239|fileIdentifier|field|com.journeygaming.menu.data.Menu|fileIdentifier
+   Method End: reloadConfig()V
+   Method Start: loadItems()V
+      @|com/journeygaming/menu/data/Menu.java|2278|2287|loadItems|method|com.journeygaming.menu.data.Menu|loadItems|()V
+      @|com/journeygaming/menu/data/Menu.java|2306|2316|identifier|field|com.journeygaming.menu.data.Menu|identifier
+      @|com/journeygaming/menu/data/Menu.java|2324|2330|config|field|com.journeygaming.menu.data.Menu|config
+      @|com/journeygaming/menu/data/Menu.java|2331|2338|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2341|2348|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2376|2385|getString|method|ninja.leaping.configurate.ConfigurationNode|getString|()Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|2403|2407|name|field|com.journeygaming.menu.data.Menu|name
+      @|com/journeygaming/menu/data/Menu.java|2415|2421|config|field|com.journeygaming.menu.data.Menu|config
+      @|com/journeygaming/menu/data/Menu.java|2422|2429|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2432|2439|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2461|2470|getString|method|ninja.leaping.configurate.ConfigurationNode|getString|()Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|2488|2494|height|field|com.journeygaming.menu.data.Menu|height
+      @|com/journeygaming/menu/data/Menu.java|2502|2508|config|field|com.journeygaming.menu.data.Menu|config
+      @|com/journeygaming/menu/data/Menu.java|2509|2516|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2519|2526|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2550|2556|getInt|method|ninja.leaping.configurate.ConfigurationNode|getInt|()I
+      @|com/journeygaming/menu/data/Menu.java|2574|2587|closeCommands|field|com.journeygaming.menu.data.Menu|closeCommands
+      @|com/journeygaming/menu/data/Menu.java|2595|2611|getCloseCommands|method|com.journeygaming.menu.data.Menu|getCloseCommands|()Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|2629|2634|items|field|com.journeygaming.menu.data.Menu|items
+      @|com/journeygaming/menu/data/Menu.java|2637|2641|Maps|class|com.google.common.collect.Maps|false
+      @|com/journeygaming/menu/data/Menu.java|2642|2652|newHashMap|method|com.google.common.collect.Maps|newHashMap|()Ljava/util/HashMap;
+      @|com/journeygaming/menu/data/Menu.java|2672|2698|CommentedConfigurationNode|class|ninja.leaping.configurate.commented.CommentedConfigurationNode|false
+      @|com/journeygaming/menu/data/Menu.java|2712|2718|config|field|com.journeygaming.menu.data.Menu|config
+      @|com/journeygaming/menu/data/Menu.java|2719|2726|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2729|2736|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2759|2773|getChildrenMap|method|ninja.leaping.configurate.ConfigurationNode|getChildrenMap|()Ljava/util/Map;
+      @|com/journeygaming/menu/data/Menu.java|2776|2782|values|method|java.util.Map|values|()Ljava/util/Collection;
+      @|com/journeygaming/menu/data/Menu.java|2822|2829|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2842|2848|getInt|method|ninja.leaping.configurate.ConfigurationNode|getInt|(I)I
+      @|com/journeygaming/menu/data/Menu.java|2866|2874|ItemType|class|org.spongepowered.api.item.ItemType|false
+      @|com/journeygaming/menu/data/Menu.java|2886|2892|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/data/Menu.java|2893|2904|getRegistry|method|org.spongepowered.api.Sponge|getRegistry|()Lorg/spongepowered/api/GameRegistry;
+      @|com/journeygaming/menu/data/Menu.java|2907|2914|getType|method|org.spongepowered.api.GameRegistry|getType|(Ljava/lang/Class;Ljava/lang/String;)Ljava/util/Optional;
+      @|com/journeygaming/menu/data/Menu.java|2915|2923|ItemType|class|org.spongepowered.api.item.ItemType|false
+      @|com/journeygaming/menu/data/Menu.java|2937|2944|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|2953|2962|getString|method|ninja.leaping.configurate.ConfigurationNode|getString|(Ljava/lang/String;)Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|2982|2988|orElse|method|java.util.Optional|orElse|(Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/journeygaming/menu/data/Menu.java|2989|2998|ItemTypes|class|org.spongepowered.api.item.ItemTypes|false
+      @|com/journeygaming/menu/data/Menu.java|2999|3003|DIRT|field|org.spongepowered.api.item.ItemTypes|DIRT
+      @|com/journeygaming/menu/data/Menu.java|3038|3045|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|3056|3062|getInt|method|ninja.leaping.configurate.ConfigurationNode|getInt|(I)I
+      @|com/journeygaming/menu/data/Menu.java|3080|3086|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|3100|3107|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|3116|3125|getString|method|ninja.leaping.configurate.ConfigurationNode|getString|()Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|3163|3170|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|3179|3189|getBoolean|method|ninja.leaping.configurate.ConfigurationNode|getBoolean|()Z
+      @|com/journeygaming/menu/data/Menu.java|3225|3232|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|3243|3249|getInt|method|ninja.leaping.configurate.ConfigurationNode|getInt|()I
+      @|com/journeygaming/menu/data/Menu.java|3266|3270|List|class|java.util.List|false
+      @|com/journeygaming/menu/data/Menu.java|3271|3277|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|3291|3304|getStringList|method|com.journeygaming.menu.data.Menu|getStringList|(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|3334|3338|List|class|java.util.List|false
+      @|com/journeygaming/menu/data/Menu.java|3339|3345|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|3363|3376|getStringList|method|com.journeygaming.menu.data.Menu|getStringList|(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|3412|3421|ItemStack|class|org.spongepowered.api.item.inventory.ItemStack|false
+      @|com/journeygaming/menu/data/Menu.java|3434|3443|ItemStack|class|org.spongepowered.api.item.inventory.ItemStack|false
+      @|com/journeygaming/menu/data/Menu.java|3444|3451|builder|method|org.spongepowered.api.item.inventory.ItemStack|builder|()Lorg/spongepowered/api/item/inventory/ItemStack$Builder;
+      @|com/journeygaming/menu/data/Menu.java|3476|3484|itemType|method|org.spongepowered.api.item.inventory.ItemStack.Builder|itemType|(Lorg/spongepowered/api/item/ItemType;)Lorg/spongepowered/api/item/inventory/ItemStack$Builder;
+      @|com/journeygaming/menu/data/Menu.java|3517|3525|quantity|method|org.spongepowered.api.item.inventory.ItemStack.Builder|quantity|(I)Lorg/spongepowered/api/item/inventory/ItemStack$Builder;
+      @|com/journeygaming/menu/data/Menu.java|3556|3559|add|method|org.spongepowered.api.item.inventory.ItemStack.Builder|add|(Lorg/spongepowered/api/data/key/Key;Ljava/lang/Object;)Lorg/spongepowered/api/item/inventory/ItemStack$Builder;
+      @|com/journeygaming/menu/data/Menu.java|3560|3564|Keys|class|org.spongepowered.api.data.key.Keys|false
+      @|com/journeygaming/menu/data/Menu.java|3565|3577|DISPLAY_NAME|field|org.spongepowered.api.data.key.Keys|DISPLAY_NAME
+      @|com/journeygaming/menu/data/Menu.java|3579|3583|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/data/Menu.java|3584|3586|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/data/Menu.java|3616|3619|add|method|org.spongepowered.api.item.inventory.ItemStack.Builder|add|(Lorg/spongepowered/api/data/key/Key;Ljava/lang/Object;)Lorg/spongepowered/api/item/inventory/ItemStack$Builder;
+      @|com/journeygaming/menu/data/Menu.java|3620|3624|Keys|class|org.spongepowered.api.data.key.Keys|false
+      @|com/journeygaming/menu/data/Menu.java|3625|3634|ITEM_LORE|field|org.spongepowered.api.data.key.Keys|ITEM_LORE
+      @|com/journeygaming/menu/data/Menu.java|3641|3647|stream|method|java.util.Collection|stream|()Ljava/util/stream/Stream;
+      @|com/journeygaming/menu/data/Menu.java|3650|3653|map|method|java.util.stream.Stream|map|(Ljava/util/function/Function;)Ljava/util/stream/Stream;
+      @|com/journeygaming/menu/data/Menu.java|3654|3658|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/data/Menu.java|3660|3662|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/data/Menu.java|3664|3671|collect|method|java.util.stream.Stream|collect|(Ljava/util/stream/Collector;)Ljava/lang/Object;
+      @|com/journeygaming/menu/data/Menu.java|3672|3682|Collectors|class|java.util.stream.Collectors|false
+      @|com/journeygaming/menu/data/Menu.java|3683|3689|toList|method|java.util.stream.Collectors|toList|()Ljava/util/stream/Collector;
+      @|com/journeygaming/menu/data/Menu.java|3716|3719|add|method|org.spongepowered.api.item.inventory.ItemStack.Builder|add|(Lorg/spongepowered/api/data/key/Key;Ljava/lang/Object;)Lorg/spongepowered/api/item/inventory/ItemStack$Builder;
+      @|com/journeygaming/menu/data/Menu.java|3720|3724|Keys|class|org.spongepowered.api.data.key.Keys|false
+      @|com/journeygaming/menu/data/Menu.java|3725|3742|HIDE_ENCHANTMENTS|field|org.spongepowered.api.data.key.Keys|HIDE_ENCHANTMENTS
+      @|com/journeygaming/menu/data/Menu.java|3772|3777|build|method|org.spongepowered.api.item.inventory.ItemStack.Builder|build|()Lorg/spongepowered/api/item/inventory/ItemStack;
+      @|com/journeygaming/menu/data/Menu.java|3825|3840|EnchantmentData|class|org.spongepowered.api.data.manipulator.mutable.item.EnchantmentData|false
+      @|com/journeygaming/menu/data/Menu.java|3869|3880|getOrCreate|method|org.spongepowered.api.data.value.mutable.CompositeValueStore|getOrCreate|(Ljava/lang/Class;)Ljava/util/Optional;
+      @|com/journeygaming/menu/data/Menu.java|3881|3896|EnchantmentData|class|org.spongepowered.api.data.manipulator.mutable.item.EnchantmentData|false
+      @|com/journeygaming/menu/data/Menu.java|3904|3907|get|method|java.util.Optional|get|()Ljava/lang/Object;
+      @|com/journeygaming/menu/data/Menu.java|3944|3947|set|method|org.spongepowered.api.data.manipulator.DataManipulator|set|(Lorg/spongepowered/api/data/value/BaseValue;)Lorg/spongepowered/api/data/manipulator/DataManipulator;
+      @|com/journeygaming/menu/data/Menu.java|3964|3976|enchantments|method|org.spongepowered.api.data.manipulator.mutable.item.EnchantmentData|enchantments|()Lorg/spongepowered/api/data/value/mutable/ListValue;
+      @|com/journeygaming/menu/data/Menu.java|3979|3982|add|method|org.spongepowered.api.data.value.mutable.CollectionValue|add|(Ljava/lang/Object;)Lorg/spongepowered/api/data/value/mutable/CollectionValue;
+      @|com/journeygaming/menu/data/Menu.java|3983|3994|Enchantment|class|org.spongepowered.api.item.enchantment.Enchantment|false
+      @|com/journeygaming/menu/data/Menu.java|3995|3997|of|method|org.spongepowered.api.item.enchantment.Enchantment|of|(Lorg/spongepowered/api/item/enchantment/EnchantmentType;I)Lorg/spongepowered/api/item/enchantment/Enchantment;
+      @|com/journeygaming/menu/data/Menu.java|3998|4014|EnchantmentTypes|class|org.spongepowered.api.item.enchantment.EnchantmentTypes|false
+      @|com/journeygaming/menu/data/Menu.java|4015|4028|AQUA_AFFINITY|field|org.spongepowered.api.item.enchantment.EnchantmentTypes|AQUA_AFFINITY
+      @|com/journeygaming/menu/data/Menu.java|4063|4068|offer|method|org.spongepowered.api.data.value.mutable.CompositeValueStore|offer|(Lorg/spongepowered/api/data/value/ValueContainer;)Lorg/spongepowered/api/data/DataTransactionResult;
+      @|com/journeygaming/menu/data/Menu.java|4117|4125|DataView|class|org.spongepowered.api.data.DataView|false
+      @|com/journeygaming/menu/data/Menu.java|4149|4160|toContainer|method|org.spongepowered.api.data.DataSerializable|toContainer|()Lorg/spongepowered/api/data/DataContainer;
+      @|com/journeygaming/menu/data/Menu.java|4188|4191|set|method|org.spongepowered.api.data.DataView|set|(Lorg/spongepowered/api/data/DataQuery;Ljava/lang/Object;)Lorg/spongepowered/api/data/DataView;
+      @|com/journeygaming/menu/data/Menu.java|4192|4201|DataQuery|class|org.spongepowered.api.data.DataQuery|false
+      @|com/journeygaming/menu/data/Menu.java|4202|4204|of|method|org.spongepowered.api.data.DataQuery|of|([Ljava/lang/String;)Lorg/spongepowered/api/data/DataQuery;
+      @|com/journeygaming/menu/data/Menu.java|4254|4264|setRawData|method|org.spongepowered.api.data.DataHolder|setRawData|(Lorg/spongepowered/api/data/DataView;)V
+      @|com/journeygaming/menu/data/Menu.java|4303|4310|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|4351|4377|CommentedConfigurationNode|class|ninja.leaping.configurate.commented.CommentedConfigurationNode|false
+      @|com/journeygaming/menu/data/Menu.java|4390|4397|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|4405|4419|getChildrenMap|method|ninja.leaping.configurate.ConfigurationNode|getChildrenMap|()Ljava/util/Map;
+      @|com/journeygaming/menu/data/Menu.java|4422|4428|values|method|java.util.Map|values|()Ljava/util/Collection;
+      @|com/journeygaming/menu/data/Menu.java|4455|4461|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|4469|4475|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|4481|4487|getKey|method|ninja.leaping.configurate.ConfigurationNode|getKey|()Ljava/lang/Object;
+      @|com/journeygaming/menu/data/Menu.java|4512|4520|DataView|class|org.spongepowered.api.data.DataView|false
+      @|com/journeygaming/menu/data/Menu.java|4543|4554|toContainer|method|org.spongepowered.api.data.DataSerializable|toContainer|()Lorg/spongepowered/api/data/DataContainer;
+      @|com/journeygaming/menu/data/Menu.java|4589|4592|set|method|org.spongepowered.api.data.DataView|set|(Lorg/spongepowered/api/data/DataQuery;Ljava/lang/Object;)Lorg/spongepowered/api/data/DataView;
+      @|com/journeygaming/menu/data/Menu.java|4593|4602|DataQuery|class|org.spongepowered.api.data.DataQuery|false
+      @|com/journeygaming/menu/data/Menu.java|4603|4605|of|method|org.spongepowered.api.data.DataQuery|of|([Ljava/lang/String;)Lorg/spongepowered/api/data/DataQuery;
+      @|com/journeygaming/menu/data/Menu.java|4630|4638|getValue|method|ninja.leaping.configurate.ConfigurationNode|getValue|()Ljava/lang/Object;
+      @|com/journeygaming/menu/data/Menu.java|4674|4684|setRawData|method|org.spongepowered.api.data.DataHolder|setRawData|(Lorg/spongepowered/api/data/DataView;)V
+      @|com/journeygaming/menu/data/Menu.java|4751|4756|items|field|com.journeygaming.menu.data.Menu|items
+      @|com/journeygaming/menu/data/Menu.java|4757|4760|put|method|java.util.Map|put|(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;
+      @|com/journeygaming/menu/data/Menu.java|4771|4778|Element|class|com.mcsimonflash.sponge.teslalibs.inventory.Element|false
+      @|com/journeygaming/menu/data/Menu.java|4779|4781|of|method|com.mcsimonflash.sponge.teslalibs.inventory.Element|of|(Lorg/spongepowered/api/item/inventory/ItemStack;Ljava/util/function/Consumer;)Lcom/mcsimonflash/sponge/teslalibs/inventory/Element;
+      @|com/journeygaming/menu/data/Menu.java|4826|4832|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|4887|4903|equalsIgnoreCase|method|java.lang.String|equalsIgnoreCase|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/data/Menu.java|4943|4948|click|param|java.util.function.Consumer<com.mcsimonflash.sponge.teslalibs.inventory.Action.Click>|accept|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action$Click;)V|click|-1
+      @|com/journeygaming/menu/data/Menu.java|4949|4958|getPlayer|method|com.mcsimonflash.sponge.teslalibs.inventory.Action|getPlayer|()Lorg/spongepowered/api/entity/living/player/Player;
+      @|com/journeygaming/menu/data/Menu.java|4961|4975|closeInventory|method|org.spongepowered.api.entity.living.player.Player|closeInventory|()Z
+      @|com/journeygaming/menu/data/Menu.java|5072|5079|isEmpty|method|java.lang.String|isEmpty|()Z
+      @|com/journeygaming/menu/data/Menu.java|5095|5103|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com/journeygaming/menu/data/Menu.java|5126|5134|contains|method|java.lang.String|contains|(Ljava/lang/CharSequence;)Z
+      @|com/journeygaming/menu/data/Menu.java|5250|5257|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|5270|5275|click|param|java.util.function.Consumer<com.mcsimonflash.sponge.teslalibs.inventory.Action.Click>|accept|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action$Click;)V|click|-1
+      @|com/journeygaming/menu/data/Menu.java|5276|5285|getPlayer|method|com.mcsimonflash.sponge.teslalibs.inventory.Action|getPlayer|()Lorg/spongepowered/api/entity/living/player/Player;
+      @|com/journeygaming/menu/data/Menu.java|5288|5295|getName|method|org.spongepowered.api.entity.Tamer|getName|()Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|5335|5345|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/data/Menu.java|5404|5409|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|5453|5459|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/data/Menu.java|5460|5477|getCommandManager|method|org.spongepowered.api.Sponge|getCommandManager|()Lorg/spongepowered/api/command/CommandManager;
+      @|com/journeygaming/menu/data/Menu.java|5480|5487|process|method|org.spongepowered.api.command.CommandCallable|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/data/Menu.java|5488|5494|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/data/Menu.java|5495|5504|getServer|method|org.spongepowered.api.Sponge|getServer|()Lorg/spongepowered/api/Server;
+      @|com/journeygaming/menu/data/Menu.java|5507|5517|getConsole|method|org.spongepowered.api.Server|getConsole|()Lorg/spongepowered/api/command/source/ConsoleSource;
+      @|com/journeygaming/menu/data/Menu.java|5604|5609|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|com/journeygaming/menu/data/Menu.java|5652|5658|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/data/Menu.java|5659|5676|getCommandManager|method|org.spongepowered.api.Sponge|getCommandManager|()Lorg/spongepowered/api/command/CommandManager;
+      @|com/journeygaming/menu/data/Menu.java|5679|5686|process|method|org.spongepowered.api.command.CommandCallable|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/data/Menu.java|5687|5692|click|param|java.util.function.Consumer<com.mcsimonflash.sponge.teslalibs.inventory.Action.Click>|accept|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action$Click;)V|click|-1
+      @|com/journeygaming/menu/data/Menu.java|5693|5702|getPlayer|method|com.mcsimonflash.sponge.teslalibs.inventory.Action|getPlayer|()Lorg/spongepowered/api/entity/living/player/Player;
+   Method End: loadItems()V
+   Method Start: getCloseCommands()Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|5809|5813|List|class|java.util.List|false
+      @|com/journeygaming/menu/data/Menu.java|5814|5820|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|5822|5838|getCloseCommands|method|com.journeygaming.menu.data.Menu|getCloseCommands|()Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|5883|5889|config|field|com.journeygaming.menu.data.Menu|config
+      @|com/journeygaming/menu/data/Menu.java|5890|5897|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|5900|5907|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|5939|5946|getList|method|ninja.leaping.configurate.ConfigurationNode|getList|(Lcom/google/common/reflect/TypeToken;)Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|5947|5964|STRING_TYPE_TOKEN|field|com.journeygaming.menu.data.Menu|STRING_TYPE_TOKEN
+      @|com/journeygaming/menu/data/Menu.java|5985|6007|ObjectMappingException|class|ninja.leaping.configurate.objectmapping.ObjectMappingException|false
+      @|com/journeygaming/menu/data/Menu.java|6028|6043|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com/journeygaming/menu/data/Menu.java|6076|6087|Collections|class|java.util.Collections|false
+      @|com/journeygaming/menu/data/Menu.java|6088|6097|emptyList|method|java.util.Collections|emptyList|()Ljava/util/List;
+   Method End: getCloseCommands()Ljava/util/List;
+   Method Start: getStringList(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|6177|6181|node|param|com.journeygaming.menu.data.Menu|getStringList|(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;|node|0
+      @|com/journeygaming/menu/data/Menu.java|6193|6199|parent|param|com.journeygaming.menu.data.Menu|getStringList|(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;|parent|1
+      @|com/journeygaming/menu/data/Menu.java|6123|6127|List|class|java.util.List|false
+      @|com/journeygaming/menu/data/Menu.java|6128|6134|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/Menu.java|6136|6149|getStringList|method|com.journeygaming.menu.data.Menu|getStringList|(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|6150|6176|CommentedConfigurationNode|class|ninja.leaping.configurate.commented.CommentedConfigurationNode|false
+      @|com/journeygaming/menu/data/Menu.java|6183|6189|Object|class|java.lang.Object|false
+      @|com/journeygaming/menu/data/Menu.java|6238|6242|node|param|com.journeygaming.menu.data.Menu|getStringList|(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;|node|0
+      @|com/journeygaming/menu/data/Menu.java|6243|6250|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/Menu.java|6251|6257|parent|param|com.journeygaming.menu.data.Menu|getStringList|(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;|parent|1
+      @|com/journeygaming/menu/data/Menu.java|6259|6266|getList|method|ninja.leaping.configurate.ConfigurationNode|getList|(Lcom/google/common/reflect/TypeToken;)Ljava/util/List;
+      @|com/journeygaming/menu/data/Menu.java|6267|6284|STRING_TYPE_TOKEN|field|com.journeygaming.menu.data.Menu|STRING_TYPE_TOKEN
+      @|com/journeygaming/menu/data/Menu.java|6305|6327|ObjectMappingException|class|ninja.leaping.configurate.objectmapping.ObjectMappingException|false
+      @|com/journeygaming/menu/data/Menu.java|6348|6363|printStackTrace|method|java.lang.Throwable|printStackTrace|()V
+      @|com/journeygaming/menu/data/Menu.java|6396|6407|Collections|class|java.util.Collections|false
+      @|com/journeygaming/menu/data/Menu.java|6408|6417|emptyList|method|java.util.Collections|emptyList|()Ljava/util/List;
+   Method End: getStringList(Lninja/leaping/configurate/commented/CommentedConfigurationNode;[Ljava/lang/Object;)Ljava/util/List;
+   Method Start: open(Lorg/spongepowered/api/entity/living/player/Player;)V
+      @|com/journeygaming/menu/data/Menu.java|6459|6465|player|param|com.journeygaming.menu.data.Menu|open|(Lorg/spongepowered/api/entity/living/player/Player;)V|player|0
+      @|com/journeygaming/menu/data/Menu.java|6447|6451|open|method|com.journeygaming.menu.data.Menu|open|(Lorg/spongepowered/api/entity/living/player/Player;)V
+      @|com/journeygaming/menu/data/Menu.java|6452|6458|Player|class|org.spongepowered.api.entity.living.player.Player|false
+      @|com/journeygaming/menu/data/Menu.java|6482|6491|GenericUI|class|com.journeygaming.menu.ui.GenericUI|false
+      @|com/journeygaming/menu/data/Menu.java|6492|6498|player|param|com.journeygaming.menu.data.Menu|open|(Lorg/spongepowered/api/entity/living/player/Player;)V|player|0
+      @|com/journeygaming/menu/data/Menu.java|6505|6509|name|field|com.journeygaming.menu.data.Menu|name
+      @|com/journeygaming/menu/data/Menu.java|6516|6522|height|field|com.journeygaming.menu.data.Menu|height
+      @|com/journeygaming/menu/data/Menu.java|6529|6534|items|field|com.journeygaming.menu.data.Menu|items
+      @|com/journeygaming/menu/data/Menu.java|6541|6554|closeCommands|field|com.journeygaming.menu.data.Menu|closeCommands
+   Method End: open(Lorg/spongepowered/api/entity/living/player/Player;)V
+Class End  : com.journeygaming.menu.data.Menu
+endProcessing "com/journeygaming/menu/data/Menu.java"
+
+startProcessing "com/journeygaming/menu/data/MenuConfig.java" md5: 1e07fa3f6aec842a685ddd17fdb0bf5e
+@|com/journeygaming/menu/data/MenuConfig.java|8|35|com.journeygaming.menu.data|package|com.journeygaming.menu.data|(file)
+Class Start: com.journeygaming.menu.data.MenuConfig
+   @|com/journeygaming/menu/data/MenuConfig.java|193|203|MenuConfig|class|com.journeygaming.menu.data.MenuConfig|false
+   @|com/journeygaming/menu/data/MenuConfig.java|212|224|Configurable|class|com.journeygaming.lib.config.Configurable|false
+   @|com/journeygaming/menu/data/MenuConfig.java|254|260|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/MenuConfig.java|254|260|String|class|java.lang.String|false
+   @|com/journeygaming/menu/data/MenuConfig.java|261|265|PATH|field|com.journeygaming.menu.data.MenuConfig|PATH|
+   Method Start: MenuConfig(Ljava/lang/String;)V
+      @|com/journeygaming/menu/data/MenuConfig.java|309|313|name|param|com.journeygaming.menu.data.MenuConfig|MenuConfig|(Ljava/lang/String;)V|name|0
+      @|com/journeygaming/menu/data/MenuConfig.java|291|301|MenuConfig|method|com.journeygaming.menu.data.MenuConfig|MenuConfig|(Ljava/lang/String;)V
+      @|com/journeygaming/menu/data/MenuConfig.java|302|308|String|class|java.lang.String|false
+      @|com/journeygaming/menu/data/MenuConfig.java|332|336|PATH|field|com.journeygaming.menu.data.MenuConfig|PATH
+      @|com/journeygaming/menu/data/MenuConfig.java|346|350|name|param|com.journeygaming.menu.data.MenuConfig|MenuConfig|(Ljava/lang/String;)V|name|0
+   Method End: MenuConfig(Ljava/lang/String;)V
+   Method Start: populate()V
+      @|com/journeygaming/menu/data/MenuConfig.java|368|376|Override|class|java.lang.Override|false
+      @|com/journeygaming/menu/data/MenuConfig.java|394|402|populate|method|com.journeygaming.lib.config.Configurable|populate|()V
+      @|com/journeygaming/menu/data/MenuConfig.java|421|428|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|431|438|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|466|474|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|506|513|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|516|523|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|545|553|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|580|587|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|590|597|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|621|629|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|648|655|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|658|665|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|697|705|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|706|711|Lists|class|com.google.common.collect.Lists|false
+      @|com/journeygaming/menu/data/MenuConfig.java|712|724|newArrayList|method|com.google.common.collect.Lists|newArrayList|([Ljava/lang/Object;)Ljava/util/ArrayList;
+      @|com/journeygaming/menu/data/MenuConfig.java|928|935|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|938|945|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|987|995|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1014|1021|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1024|1031|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1069|1077|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1078|1087|ItemTypes|class|org.spongepowered.api.item.ItemTypes|false
+      @|com/journeygaming/menu/data/MenuConfig.java|1088|1099|ACACIA_BOAT|field|org.spongepowered.api.item.ItemTypes|ACACIA_BOAT
+      @|com/journeygaming/menu/data/MenuConfig.java|1100|1107|getName|method|org.spongepowered.api.CatalogType|getName|()Ljava/lang/String;
+      @|com/journeygaming/menu/data/MenuConfig.java|1126|1133|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1136|1143|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1183|1191|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1210|1217|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1220|1227|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1265|1273|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1321|1328|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1331|1338|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1376|1384|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1406|1413|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1416|1423|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1461|1469|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1470|1475|Lists|class|com.google.common.collect.Lists|false
+      @|com/journeygaming/menu/data/MenuConfig.java|1476|1488|newArrayList|method|com.google.common.collect.Lists|newArrayList|([Ljava/lang/Object;)Ljava/util/ArrayList;
+      @|com/journeygaming/menu/data/MenuConfig.java|1586|1593|getNode|method|com.journeygaming.lib.config.Configurable|getNode|()Lninja/leaping/configurate/commented/CommentedConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1596|1603|getNode|method|ninja.leaping.configurate.ConfigurationNode|getNode|([Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1645|1653|setValue|method|ninja.leaping.configurate.ConfigurationNode|setValue|(Ljava/lang/Object;)Lninja/leaping/configurate/ConfigurationNode;
+      @|com/journeygaming/menu/data/MenuConfig.java|1654|1659|Lists|class|com.google.common.collect.Lists|false
+      @|com/journeygaming/menu/data/MenuConfig.java|1660|1672|newArrayList|method|com.google.common.collect.Lists|newArrayList|([Ljava/lang/Object;)Ljava/util/ArrayList;
+   Method End: populate()V
+Class End  : com.journeygaming.menu.data.MenuConfig
+endProcessing "com/journeygaming/menu/data/MenuConfig.java"
+
+startProcessing "com/journeygaming/menu/ui/GenericUI.java" md5: 609ae66aff1dbfa5d2445c5a81a40e44
+@|com/journeygaming/menu/ui/GenericUI.java|8|33|com.journeygaming.menu.ui|package|com.journeygaming.menu.ui|(file)
+Class Start: com.journeygaming.menu.ui.GenericUI
+   @|com/journeygaming/menu/ui/GenericUI.java|795|804|GenericUI|class|com.journeygaming.menu.ui.GenericUI|false
+   @|com/journeygaming/menu/ui/GenericUI.java|822|834|View.Builder|class|com.mcsimonflash.sponge.teslalibs.inventory.View.Builder|false
+   @|com/journeygaming/menu/ui/GenericUI.java|822|834|View.Builder|class|com.mcsimonflash.sponge.teslalibs.inventory.View.Builder|false
+   @|com/journeygaming/menu/ui/GenericUI.java|835|844|basicView|field|com.journeygaming.menu.ui.GenericUI|basicView|
+   @|com/journeygaming/menu/ui/GenericUI.java|847|851|View|class|com.mcsimonflash.sponge.teslalibs.inventory.View|false
+   @|com/journeygaming/menu/ui/GenericUI.java|852|859|builder|method|com.mcsimonflash.sponge.teslalibs.inventory.View|builder|()Lcom/mcsimonflash/sponge/teslalibs/inventory/View$Builder;
+   @|com/journeygaming/menu/ui/GenericUI.java|876|885|archetype|method|com.mcsimonflash.sponge.teslalibs.inventory.Displayable.Builder|archetype|(Lorg/spongepowered/api/item/inventory/InventoryArchetype;)Lcom/mcsimonflash/sponge/teslalibs/inventory/Displayable$Builder;
+   @|com/journeygaming/menu/ui/GenericUI.java|886|905|InventoryArchetypes|class|org.spongepowered.api.item.inventory.InventoryArchetypes|false
+   @|com/journeygaming/menu/ui/GenericUI.java|906|918|DOUBLE_CHEST|field|org.spongepowered.api.item.inventory.InventoryArchetypes|DOUBLE_CHEST
+   @|com/journeygaming/menu/ui/GenericUI.java|936|942|Player|class|org.spongepowered.api.entity.living.player.Player|false
+   @|com/journeygaming/menu/ui/GenericUI.java|936|942|Player|class|org.spongepowered.api.entity.living.player.Player|false
+   @|com/journeygaming/menu/ui/GenericUI.java|943|949|player|field|com.journeygaming.menu.ui.GenericUI|player|
+   @|com/journeygaming/menu/ui/GenericUI.java|964|968|View|class|com.mcsimonflash.sponge.teslalibs.inventory.View|false
+   @|com/journeygaming/menu/ui/GenericUI.java|964|968|View|class|com.mcsimonflash.sponge.teslalibs.inventory.View|false
+   @|com/journeygaming/menu/ui/GenericUI.java|969|973|view|field|com.journeygaming.menu.ui.GenericUI|view|
+   Method Start: GenericUI(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|1006|1012|player|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|player|0
+      @|com/journeygaming/menu/ui/GenericUI.java|1021|1025|name|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|name|1
+      @|com/journeygaming/menu/ui/GenericUI.java|1031|1037|height|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|height|2
+      @|com/journeygaming/menu/ui/GenericUI.java|1061|1069|elements|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|elements|3
+      @|com/journeygaming/menu/ui/GenericUI.java|1084|1097|closeCommands|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|closeCommands|4
+      @|com/journeygaming/menu/ui/GenericUI.java|989|998|GenericUI|method|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|999|1005|Player|class|org.spongepowered.api.entity.living.player.Player|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1014|1020|String|class|java.lang.String|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1039|1042|Map|class|java.util.Map|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1043|1050|Integer|class|java.lang.Integer|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1052|1059|Element|class|com.mcsimonflash.sponge.teslalibs.inventory.Element|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1071|1075|List|class|java.util.List|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1076|1082|String|class|java.lang.String|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1115|1121|player|field|com.journeygaming.menu.ui.GenericUI|player
+      @|com/journeygaming/menu/ui/GenericUI.java|1124|1130|player|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|player|0
+      @|com/journeygaming/menu/ui/GenericUI.java|1146|1155|basicView|field|com.journeygaming.menu.ui.GenericUI|basicView
+      @|com/journeygaming/menu/ui/GenericUI.java|1156|1164|property|method|com.mcsimonflash.sponge.teslalibs.inventory.Displayable.Builder|property|(Lorg/spongepowered/api/item/inventory/InventoryProperty;)Lcom/mcsimonflash/sponge/teslalibs/inventory/Displayable$Builder;
+      @|com/journeygaming/menu/ui/GenericUI.java|1165|1179|InventoryTitle|class|org.spongepowered.api.item.inventory.property.InventoryTitle|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1180|1182|of|method|org.spongepowered.api.item.inventory.property.InventoryTitle|of|(Lorg/spongepowered/api/text/Text;)Lorg/spongepowered/api/item/inventory/property/InventoryTitle;
+      @|com/journeygaming/menu/ui/GenericUI.java|1183|1187|Text|class|org.spongepowered.api.text.Text|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1188|1190|of|method|org.spongepowered.api.text.Text|of|(Ljava/lang/String;)Lorg/spongepowered/api/text/LiteralText;
+      @|com/journeygaming/menu/ui/GenericUI.java|1191|1195|name|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|name|1
+      @|com/journeygaming/menu/ui/GenericUI.java|1214|1223|basicView|field|com.journeygaming.menu.ui.GenericUI|basicView
+      @|com/journeygaming/menu/ui/GenericUI.java|1224|1232|property|method|com.mcsimonflash.sponge.teslalibs.inventory.Displayable.Builder|property|(Lorg/spongepowered/api/item/inventory/InventoryProperty;)Lcom/mcsimonflash/sponge/teslalibs/inventory/Displayable$Builder;
+      @|com/journeygaming/menu/ui/GenericUI.java|1237|1255|InventoryDimension|class|org.spongepowered.api.item.inventory.property.InventoryDimension|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1259|1265|height|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|height|2
+      @|com/journeygaming/menu/ui/GenericUI.java|1283|1292|basicView|field|com.journeygaming.menu.ui.GenericUI|basicView
+      @|com/journeygaming/menu/ui/GenericUI.java|1293|1300|onClose|method|com.mcsimonflash.sponge.teslalibs.inventory.Displayable.Builder|onClose|(Ljava/util/function/Consumer;)Lcom/mcsimonflash/sponge/teslalibs/inventory/Displayable$Builder;
+      @|com/journeygaming/menu/ui/GenericUI.java|1316|1327|handleClose|method|com.journeygaming.menu.ui.GenericUI|handleClose|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|1328|1334|action|param|java.util.function.Consumer<com.mcsimonflash.sponge.teslalibs.inventory.Action<org.spongepowered.api.event.item.inventory.InteractInventoryEvent.Close>>|accept|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;)V|action|-1
+      @|com/journeygaming/menu/ui/GenericUI.java|1336|1349|closeCommands|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|closeCommands|4
+      @|com/journeygaming/menu/ui/GenericUI.java|1367|1371|view|field|com.journeygaming.menu.ui.GenericUI|view
+      @|com/journeygaming/menu/ui/GenericUI.java|1374|1383|basicView|field|com.journeygaming.menu.ui.GenericUI|basicView
+      @|com/journeygaming/menu/ui/GenericUI.java|1384|1389|build|method|com.mcsimonflash.sponge.teslalibs.inventory.Displayable.Builder|build|(Lorg/spongepowered/api/plugin/PluginContainer;)Lcom/mcsimonflash/sponge/teslalibs/inventory/Displayable;
+      @|com/journeygaming/menu/ui/GenericUI.java|1390|1400|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1401|1412|getInstance|method|com.journeygaming.menu.MenuPlugin|getInstance|()Lcom/journeygaming/menu/MenuPlugin;
+      @|com/journeygaming/menu/ui/GenericUI.java|1415|1427|getContainer|method|com.journeygaming.menu.MenuPlugin|getContainer|()Lorg/spongepowered/api/plugin/PluginContainer;
+      @|com/journeygaming/menu/ui/GenericUI.java|1446|1459|placeElements|method|com.journeygaming.menu.ui.GenericUI|placeElements|(Ljava/util/Map;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|1460|1468|elements|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|elements|3
+      @|com/journeygaming/menu/ui/GenericUI.java|1485|1489|view|field|com.journeygaming.menu.ui.GenericUI|view
+      @|com/journeygaming/menu/ui/GenericUI.java|1490|1494|open|method|com.mcsimonflash.sponge.teslalibs.inventory.Displayable|open|(Lorg/spongepowered/api/entity/living/player/Player;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|1495|1501|player|param|com.journeygaming.menu.ui.GenericUI|GenericUI|(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V|player|0
+   Method End: GenericUI(Lorg/spongepowered/api/entity/living/player/Player;Ljava/lang/String;ILjava/util/Map;Ljava/util/List;)V
+   Method Start: handleClose(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|1580|1591|closeAction|param|com.journeygaming.menu.ui.GenericUI|handleClose|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V|closeAction|0
+      @|com/journeygaming/menu/ui/GenericUI.java|1606|1614|commands|param|com.journeygaming.menu.ui.GenericUI|handleClose|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V|commands|1
+      @|com/journeygaming/menu/ui/GenericUI.java|1531|1542|handleClose|method|com.journeygaming.menu.ui.GenericUI|handleClose|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|1543|1549|Action|class|com.mcsimonflash.sponge.teslalibs.inventory.Action|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1550|1578|InteractInventoryEvent.Close|class|org.spongepowered.api.event.item.inventory.InteractInventoryEvent.Close|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1593|1597|List|class|java.util.List|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1598|1604|String|class|java.lang.String|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1627|1633|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1634|1646|getScheduler|method|org.spongepowered.api.Sponge|getScheduler|()Lorg/spongepowered/api/scheduler/Scheduler;
+      @|com/journeygaming/menu/ui/GenericUI.java|1649|1666|createTaskBuilder|method|org.spongepowered.api.scheduler.Scheduler|createTaskBuilder|()Lorg/spongepowered/api/scheduler/Task$Builder;
+      @|com/journeygaming/menu/ui/GenericUI.java|1669|1676|execute|method|org.spongepowered.api.scheduler.Task.Builder|execute|(Ljava/lang/Runnable;)Lorg/spongepowered/api/scheduler/Task$Builder;
+      @|com/journeygaming/menu/ui/GenericUI.java|1701|1712|closeAction|param|com.journeygaming.menu.ui.GenericUI|handleClose|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V|closeAction|0
+      @|com/journeygaming/menu/ui/GenericUI.java|1713|1722|getPlayer|method|com.mcsimonflash.sponge.teslalibs.inventory.Action|getPlayer|()Lorg/spongepowered/api/entity/living/player/Player;
+      @|com/journeygaming/menu/ui/GenericUI.java|1725|1741|getOpenInventory|method|org.spongepowered.api.entity.living.player.Player|getOpenInventory|()Ljava/util/Optional;
+      @|com/journeygaming/menu/ui/GenericUI.java|1744|1753|isPresent|method|java.util.Optional|isPresent|()Z
+      @|com/journeygaming/menu/ui/GenericUI.java|1759|1770|closeAction|param|com.journeygaming.menu.ui.GenericUI|handleClose|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V|closeAction|0
+      @|com/journeygaming/menu/ui/GenericUI.java|1771|1780|getPlayer|method|com.mcsimonflash.sponge.teslalibs.inventory.Action|getPlayer|()Lorg/spongepowered/api/entity/living/player/Player;
+      @|com/journeygaming/menu/ui/GenericUI.java|1783|1799|getOpenInventory|method|org.spongepowered.api.entity.living.player.Player|getOpenInventory|()Ljava/util/Optional;
+      @|com/journeygaming/menu/ui/GenericUI.java|1802|1805|get|method|java.util.Optional|get|()Ljava/lang/Object;
+      @|com/journeygaming/menu/ui/GenericUI.java|1819|1833|ContainerChest|class|net.minecraft.inventory.ContainerChest|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1897|1903|String|class|java.lang.String|false
+      @|com/journeygaming/menu/ui/GenericUI.java|1914|1922|commands|param|com.journeygaming.menu.ui.GenericUI|handleClose|(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V|commands|1
+      @|com/journeygaming/menu/ui/GenericUI.java|1961|1968|replace|method|java.lang.String|replace|(Ljava/lang/CharSequence;Ljava/lang/CharSequence;)Ljava/lang/String;
+      @|com/journeygaming/menu/ui/GenericUI.java|1986|1992|player|field|com.journeygaming.menu.ui.GenericUI|player
+      @|com/journeygaming/menu/ui/GenericUI.java|1993|2000|getName|method|org.spongepowered.api.entity.Tamer|getName|()Ljava/lang/String;
+      @|com/journeygaming/menu/ui/GenericUI.java|2036|2046|startsWith|method|java.lang.String|startsWith|(Ljava/lang/String;)Z
+      @|com/journeygaming/menu/ui/GenericUI.java|2101|2106|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|com/journeygaming/menu/ui/GenericUI.java|2146|2152|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2153|2170|getCommandManager|method|org.spongepowered.api.Sponge|getCommandManager|()Lorg/spongepowered/api/command/CommandManager;
+      @|com/journeygaming/menu/ui/GenericUI.java|2173|2180|process|method|org.spongepowered.api.command.CommandCallable|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/ui/GenericUI.java|2181|2187|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2188|2197|getServer|method|org.spongepowered.api.Sponge|getServer|()Lorg/spongepowered/api/Server;
+      @|com/journeygaming/menu/ui/GenericUI.java|2200|2210|getConsole|method|org.spongepowered.api.Server|getConsole|()Lorg/spongepowered/api/command/source/ConsoleSource;
+      @|com/journeygaming/menu/ui/GenericUI.java|2289|2294|split|method|java.lang.String|split|(Ljava/lang/String;)[Ljava/lang/String;
+      @|com/journeygaming/menu/ui/GenericUI.java|2333|2339|Sponge|class|org.spongepowered.api.Sponge|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2340|2357|getCommandManager|method|org.spongepowered.api.Sponge|getCommandManager|()Lorg/spongepowered/api/command/CommandManager;
+      @|com/journeygaming/menu/ui/GenericUI.java|2360|2367|process|method|org.spongepowered.api.command.CommandCallable|process|(Lorg/spongepowered/api/command/CommandSource;Ljava/lang/String;)Lorg/spongepowered/api/command/CommandResult;
+      @|com/journeygaming/menu/ui/GenericUI.java|2373|2379|player|field|com.journeygaming.menu.ui.GenericUI|player
+      @|com/journeygaming/menu/ui/GenericUI.java|2437|2447|delayTicks|method|org.spongepowered.api.scheduler.Task.Builder|delayTicks|(J)Lorg/spongepowered/api/scheduler/Task$Builder;
+      @|com/journeygaming/menu/ui/GenericUI.java|2451|2457|submit|method|org.spongepowered.api.scheduler.Task.Builder|submit|(Ljava/lang/Object;)Lorg/spongepowered/api/scheduler/Task;
+      @|com/journeygaming/menu/ui/GenericUI.java|2458|2468|MenuPlugin|class|com.journeygaming.menu.MenuPlugin|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2469|2480|getInstance|method|com.journeygaming.menu.MenuPlugin|getInstance|()Lcom/journeygaming/menu/MenuPlugin;
+      @|com/journeygaming/menu/ui/GenericUI.java|2483|2495|getContainer|method|com.journeygaming.menu.MenuPlugin|getContainer|()Lorg/spongepowered/api/plugin/PluginContainer;
+   Method End: handleClose(Lcom/mcsimonflash/sponge/teslalibs/inventory/Action;Ljava/util/List;)V
+   Method Start: placeElements(Ljava/util/Map;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|2563|2571|elements|param|com.journeygaming.menu.ui.GenericUI|placeElements|(Ljava/util/Map;)V|elements|0
+      @|com/journeygaming/menu/ui/GenericUI.java|2527|2540|placeElements|method|com.journeygaming.menu.ui.GenericUI|placeElements|(Ljava/util/Map;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|2541|2544|Map|class|java.util.Map|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2545|2552|Integer|class|java.lang.Integer|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2554|2561|Element|class|com.mcsimonflash.sponge.teslalibs.inventory.Element|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2589|2598|Map.Entry|class|java.util.Map.Entry|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2599|2606|Integer|class|java.lang.Integer|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2608|2615|Element|class|com.mcsimonflash.sponge.teslalibs.inventory.Element|false
+      @|com/journeygaming/menu/ui/GenericUI.java|2639|2647|elements|param|com.journeygaming.menu.ui.GenericUI|placeElements|(Ljava/util/Map;)V|elements|0
+      @|com/journeygaming/menu/ui/GenericUI.java|2648|2656|entrySet|method|java.util.Map|entrySet|()Ljava/util/Set;
+      @|com/journeygaming/menu/ui/GenericUI.java|2680|2684|view|field|com.journeygaming.menu.ui.GenericUI|view
+      @|com/journeygaming/menu/ui/GenericUI.java|2685|2695|setElement|method|com.mcsimonflash.sponge.teslalibs.inventory.View|setElement|(ILcom/mcsimonflash/sponge/teslalibs/inventory/Element;)V
+      @|com/journeygaming/menu/ui/GenericUI.java|2716|2722|getKey|method|java.util.Map.Entry|getKey|()Ljava/lang/Object;
+      @|com/journeygaming/menu/ui/GenericUI.java|2746|2754|getValue|method|java.util.Map.Entry|getValue|()Ljava/lang/Object;
+   Method End: placeElements(Ljava/util/Map;)V
+Class End  : com.journeygaming.menu.ui.GenericUI
+endProcessing "com/journeygaming/menu/ui/GenericUI.java"
+

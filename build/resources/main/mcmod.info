@@ -1,0 +1,21 @@
+[
+    {
+        "modid": "journeymenu",
+        "name": "Journey Menus",
+        "version": "1.0.0",
+        "description": "Journey Menus Plugin",
+        "dependencies": [
+            "journeygaminglib",
+            "spongeapi@7.1.0-ff990df4"
+        ],
+        "requiredMods": [
+            "journeygaminglib",
+            "spongeapi@7.1.0-ff990df4"
+        ]
+    },
+    {
+        "modid": "menus",
+        "name": "Menus",
+        "version": "1.0.9"
+    }
+]

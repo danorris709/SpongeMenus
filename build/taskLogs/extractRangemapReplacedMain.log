@@ -1,0 +1,19 @@
+Unsupposrted library path: C:\Users\dnorr\OneDrive\Documents\Work\JourneyGaming\JourneyPlugins\Menus\build\classes\api
+Unsupposrted library path: C:\Users\dnorr\OneDrive\Documents\Work\JourneyGaming\JourneyPlugins\Menus\build\resources\api
+Symbol range map extraction starting
+Processing 5 files
+startProcessing "com/journeygaming/menu/MenuPlugin.java" md5: 7e2c02ee3f27404edef0b03d0ba51035
+endProcessing "com/journeygaming/menu/MenuPlugin.java"
+
+startProcessing "com/journeygaming/menu/command/MenuCommand.java" md5: f31175cc2cbc8bdaa061c380d9232052
+endProcessing "com/journeygaming/menu/command/MenuCommand.java"
+
+startProcessing "com/journeygaming/menu/data/Menu.java" md5: 338a795be86a7692c9400c6726ed22c2
+endProcessing "com/journeygaming/menu/data/Menu.java"
+
+startProcessing "com/journeygaming/menu/data/MenuConfig.java" md5: 1e07fa3f6aec842a685ddd17fdb0bf5e
+endProcessing "com/journeygaming/menu/data/MenuConfig.java"
+
+startProcessing "com/journeygaming/menu/ui/GenericUI.java" md5: 609ae66aff1dbfa5d2445c5a81a40e44
+endProcessing "com/journeygaming/menu/ui/GenericUI.java"
+
