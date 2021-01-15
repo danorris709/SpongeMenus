@@ -3,34 +3,32 @@ package com.journeygaming.menu;
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.inject.Inject;
-import com.journeygaming.lib.JourneyGaming;
 import com.journeygaming.menu.command.MenuCommand;
 import com.journeygaming.menu.data.Menu;
 import com.journeygaming.menu.data.MenuConfig;
+import org.spongepowered.api.config.ConfigDir;
 import org.spongepowered.api.event.Listener;
 import org.spongepowered.api.event.game.state.GameStartedServerEvent;
-import org.spongepowered.api.plugin.Dependency;
 import org.spongepowered.api.plugin.Plugin;
 import org.spongepowered.api.plugin.PluginContainer;
 
 import java.io.File;
+import java.nio.file.Path;
 import java.util.List;
 import java.util.Map;
 
 @Plugin(
-        id = "journeymenu",
-        name = "Journey Menus",
+        id = "spongemenus",
+        name = "Sponge Menus",
         version = "1.0.0",
-        description = "Journey Menus Plugin",
-        dependencies = {
-                @Dependency(id = "journeygaminglib")
-            }
-    )
+        description = "Sponge Menus Plugin"
+)
 public class MenuPlugin {
 
     private static MenuPlugin instance;
 
     @Inject private PluginContainer container;
+    @ConfigDir(sharedRoot = false) private Path configDir;
 
     private Map<String, Menu> menus = Maps.newHashMap();
 
@@ -40,7 +38,7 @@ public class MenuPlugin {
 
         new MenuCommand(this);
 
-        File file = new File(JourneyGaming.getInstance().getConfigDir() + File.separator + "JourneyGamingSponge" + File.separator + MenuConfig.PATH);
+        File file = new File(this.configDir + File.separator + MenuConfig.PATH);
 
         if(!file.exists()) {
             file.mkdir();
@@ -64,7 +62,7 @@ public class MenuPlugin {
                 continue;
             }
 
-            String name = listFile.getPath().replace((JourneyGaming.getInstance().getConfigDir() + File.separator + "JourneyGamingSponge" + File.separator + MenuConfig.PATH + File.separator), "").replace(".conf", "");
+            String name = listFile.getPath().replace((this.configDir + File.separator + MenuConfig.PATH + File.separator), "").replace(".conf", "");
             Menu menu = new Menu(name);
 
             this.addMenu(menu);
