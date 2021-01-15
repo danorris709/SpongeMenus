@@ -19,7 +19,7 @@ apply plugin: 'net.minecraftforge.gradle.forge'
 apply plugin: 'org.spongepowered.plugin'
 
 version = '1.0.9'
-group = 'com.journeygaming'
+group = 'me.dnorris.sponge.menu'
 
 minecraft {
     version = '1.12.2-14.23.1.2555'
