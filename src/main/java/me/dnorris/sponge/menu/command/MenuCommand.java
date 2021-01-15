@@ -1,8 +1,7 @@
 package me.dnorris.sponge.menu.command;
 
-import com.journeygaming.lib.JourneyGaming;
-import com.journeygaming.lib.command.BasicCommand;
-import com.journeygaming.lib.command.Command;
+import me.dnorris.sponge.api.command.BasicCommand;
+import me.dnorris.sponge.api.command.Command;
 import me.dnorris.sponge.menu.MenuPlugin;
 import me.dnorris.sponge.menu.data.Menu;
 import me.dnorris.sponge.menu.data.MenuConfig;
