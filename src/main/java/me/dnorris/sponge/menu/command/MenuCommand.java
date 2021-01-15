@@ -15,7 +15,7 @@ import java.io.File;
 
 @Command(
 		usage = "/menu reload <name> | /menu load <path> | /menu list | /menu open <name>",
-		permission = "journey.menu",
+		permission = "sponge.menus.menu",
 		description = "Open menus",
 		extendedDescription = "Open menus",
 		aliases = {
@@ -43,7 +43,7 @@ public class MenuCommand extends BasicCommand {
 
 		if(args.length != 2) {
 			if(args.length == 1 && args[0].equalsIgnoreCase("list")) {
-				if(!player.hasPermission("journey.menu.admin.list")) {
+				if(!player.hasPermission("sponge.menus.menu.admin.list")) {
 					return CommandResult.empty();
 				}
 
@@ -59,18 +59,18 @@ public class MenuCommand extends BasicCommand {
 			return CommandResult.success();
 		}
 
-		if(args[0].equalsIgnoreCase("load") && player.hasPermission("journey.menu.admin.load")) {
-			File file = new File(JourneyGaming.getInstance().getConfigDir() + File.separator + "JourneyGamingSponge" + File.separator + MenuConfig.PATH + File.separator + args[1]);
+		if(args[0].equalsIgnoreCase("load") && player.hasPermission("sponge.menus.menu.admin.load")) {
+			File file = new File(MenuPlugin.getInstance().getConfigDir() + File.separator + MenuConfig.PATH + File.separator + args[1]);
 
 			if(!file.exists()) {
-				player.sendMessage(Text.of("File doesn't exist! example file: 'example.conf' (JourneyGamingSponge/menus/example.conf) example directory: 'idiot/' (JourneyGamingSponge/menus/idiot/)"));
+				player.sendMessage(Text.of("File doesn't exist! example file: 'example.conf' (SpongeMenus/menus/example.conf) example directory: 'idiot/' (SpongeMenus/menus/idiot/)"));
 				return CommandResult.success();
 			}
 
 			if(file.isDirectory()) {
 				this.plugin.handleDirectory(file);
 			}else {
-				String name = file.getPath().replace((JourneyGaming.getInstance().getConfigDir() + File.separator + "JourneyGamingSponge" + File.separator + MenuConfig.PATH + File.separator), "").replace(".conf", "");
+				String name = file.getPath().replace((MenuPlugin.getInstance().getConfigDir() + File.separator + MenuConfig.PATH + File.separator), "").replace(".conf", "");
 				Menu menu = new Menu(name);
 
 				this.plugin.addMenu(menu);
@@ -87,7 +87,7 @@ public class MenuCommand extends BasicCommand {
 			return CommandResult.empty();
 		}
 
-		if(args[0].equalsIgnoreCase("reload") && player.hasPermission("journey.menu.admin.reload")) {
+		if(args[0].equalsIgnoreCase("reload") && player.hasPermission("sponge.menus.menu.admin.reload")) {
 			menu.reloadConfig();
 			menu.loadItems();
 			player.sendMessage(Text.of("Menu reloaded"));

@@ -77,6 +77,10 @@ public class MenuPlugin {
         return instance;
     }
 
+    public Path getConfigDir() {
+        return this.configDir;
+    }
+
     public PluginContainer getContainer() {
         return this.container;
     }
