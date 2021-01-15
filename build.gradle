@@ -42,9 +42,7 @@ repositories {
 dependencies {
     provided 'org.spongepowered:spongeapi:7.1.0'
     compile 'org.spongepowered:spongecommon:7.1.0:dev'
-    compile files("../libs/Pixelmon-1.12.2-7.3.1-universal.jar")
-    compile files("../libs/Lib.jar")
-    compile files("../libs/TeslaPowered-s7.1-v1.1.6.jar")
+    compile files("libs/TeslaPowered-s7.1-v1.1.6.jar")
     compile group: 'com.zaxxer', name: 'HikariCP', version: '2.7.9'
 }
 
