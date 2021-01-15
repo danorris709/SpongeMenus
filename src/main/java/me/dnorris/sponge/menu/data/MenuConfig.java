@@ -1,7 +1,7 @@
 package me.dnorris.sponge.menu.data;
 
 import com.google.common.collect.Lists;
-import com.journeygaming.lib.config.Configurable;
+import me.dnorris.sponge.api.config.Configurable;
 import org.spongepowered.api.item.ItemTypes;
 
 public class MenuConfig extends Configurable {
