@@ -1,6 +1,6 @@
-package com.journeygaming.menu.ui;
+package me.dnorris.sponge.menu.ui;
 
-import com.journeygaming.menu.MenuPlugin;
+import me.dnorris.sponge.menu.MenuPlugin;
 import com.mcsimonflash.sponge.teslalibs.inventory.Action;
 import com.mcsimonflash.sponge.teslalibs.inventory.Element;
 import com.mcsimonflash.sponge.teslalibs.inventory.View;

@@ -1,23 +1,16 @@
-package com.journeygaming.menu.data;
+package me.dnorris.sponge.menu.data;
 
 import com.google.common.collect.Maps;
 import com.google.common.reflect.TypeToken;
-import com.journeygaming.menu.MenuPlugin;
-import com.journeygaming.menu.ui.GenericUI;
+import me.dnorris.sponge.menu.ui.GenericUI;
 import com.mcsimonflash.sponge.teslalibs.inventory.Element;
-import ninja.leaping.configurate.SimpleConfigurationNode;
 import ninja.leaping.configurate.commented.CommentedConfigurationNode;
-import ninja.leaping.configurate.commented.SimpleCommentedConfigurationNode;
 import ninja.leaping.configurate.objectmapping.ObjectMappingException;
 import org.spongepowered.api.Sponge;
-import org.spongepowered.api.data.DataContainer;
 import org.spongepowered.api.data.DataQuery;
 import org.spongepowered.api.data.DataView;
 import org.spongepowered.api.data.key.Keys;
-import org.spongepowered.api.data.manipulator.mutable.DyeableData;
 import org.spongepowered.api.data.manipulator.mutable.item.EnchantmentData;
-import org.spongepowered.api.data.type.DyeColor;
-import org.spongepowered.api.data.type.DyeColors;
 import org.spongepowered.api.entity.living.player.Player;
 import org.spongepowered.api.item.ItemType;
 import org.spongepowered.api.item.ItemTypes;

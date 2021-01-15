@@ -1,4 +1,4 @@
-package com.journeygaming.menu.data;
+package me.dnorris.sponge.menu.data;
 
 import com.google.common.collect.Lists;
 import com.journeygaming.lib.config.Configurable;

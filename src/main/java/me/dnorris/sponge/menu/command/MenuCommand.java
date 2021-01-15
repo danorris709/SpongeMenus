@@ -1,11 +1,11 @@
-package com.journeygaming.menu.command;
+package me.dnorris.sponge.menu.command;
 
 import com.journeygaming.lib.JourneyGaming;
 import com.journeygaming.lib.command.BasicCommand;
 import com.journeygaming.lib.command.Command;
-import com.journeygaming.menu.MenuPlugin;
-import com.journeygaming.menu.data.Menu;
-import com.journeygaming.menu.data.MenuConfig;
+import me.dnorris.sponge.menu.MenuPlugin;
+import me.dnorris.sponge.menu.data.Menu;
+import me.dnorris.sponge.menu.data.MenuConfig;
 import org.spongepowered.api.command.CommandResult;
 import org.spongepowered.api.command.CommandSource;
 import org.spongepowered.api.entity.living.player.Player;

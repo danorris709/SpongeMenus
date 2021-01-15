@@ -12,4 +12,24 @@ This mapping 'stable_39' was designed for MC 1.12! Use at your own peril.This ma
 
 CONFIGURE SUCCESSFUL
 
-Total time: 37.485 secs
+Total time: 12.448 secs
+Download https://repo.spongepowered.org/maven/org/spongepowered/spongecommon/7.1.0/spongecommon-7.1.0-dev.jar
+Download https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.9/HikariCP-2.7.9.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-hocon/3.6/configurate-hocon-3.6.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-gson/3.6/configurate-gson-3.6.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-yaml/3.6/configurate-yaml-3.6.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-core/3.6/configurate-core-3.6.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/spongecommon/7.1.0/spongecommon-7.1.0-sources.jar
+Download https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.9/HikariCP-2.7.9-sources.jar
+Download https://repo1.maven.org/maven2/com/zaxxer/HikariCP/2.7.9/HikariCP-2.7.9-javadoc.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-hocon/3.6/configurate-hocon-3.6-sources.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-hocon/3.6/configurate-hocon-3.6-javadoc.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-gson/3.6/configurate-gson-3.6-sources.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-gson/3.6/configurate-gson-3.6-javadoc.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-yaml/3.6/configurate-yaml-3.6-sources.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-yaml/3.6/configurate-yaml-3.6-javadoc.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-core/3.6/configurate-core-3.6-sources.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/configurate-core/3.6/configurate-core-3.6-javadoc.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/spongeapi/7.1.0/spongeapi-7.1.0.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/spongeapi/7.1.0/spongeapi-7.1.0-sources.jar
+Download https://repo.spongepowered.org/maven/org/spongepowered/spongeapi/7.1.0/spongeapi-7.1.0-javadoc.jar

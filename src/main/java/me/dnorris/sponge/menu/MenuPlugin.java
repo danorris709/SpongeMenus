@@ -1,11 +1,11 @@
-package com.journeygaming.menu;
+package me.dnorris.sponge.menu;
 
 import com.google.common.collect.Lists;
 import com.google.common.collect.Maps;
 import com.google.inject.Inject;
-import com.journeygaming.menu.command.MenuCommand;
-import com.journeygaming.menu.data.Menu;
-import com.journeygaming.menu.data.MenuConfig;
+import me.dnorris.sponge.menu.command.MenuCommand;
+import me.dnorris.sponge.menu.data.Menu;
+import me.dnorris.sponge.menu.data.MenuConfig;
 import org.spongepowered.api.config.ConfigDir;
 import org.spongepowered.api.event.Listener;
 import org.spongepowered.api.event.game.state.GameStartedServerEvent;
